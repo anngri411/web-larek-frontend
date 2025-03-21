@@ -199,7 +199,7 @@ constructor(protected blockName: string, container: HTMLElement, actions?: ICard
 - toggleButton(isDisabled: boolean) - управляет блокировкой кнопки "оформить"
 
 ### class ProductItemBasket
-Класс наследуется от базового класса Card и расширяется интерфейсом IProductInBasket. Класс добавляет всю специфичную логику для отображения товара в корзине.
+Класс расширяется интерфейсом IProductInBasket. Класс добавляет всю специфичную логику для отображения товара в корзине.
 
 Поля класса:
 - index: HTMLElement - DOM элемент индекса товара в корзине
